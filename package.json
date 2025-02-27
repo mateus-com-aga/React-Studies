@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev":"concurrently \"npm run start\" \"npm run tail\"",
+    "dev": "concurrently \"npm run start\" \"npm run tail\"",
     "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -12,6 +12,7 @@
     "tail": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch"
   },
   "dependencies": {
+    "lucide-react": "^0.476.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
